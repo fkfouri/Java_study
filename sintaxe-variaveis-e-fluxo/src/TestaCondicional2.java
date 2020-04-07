@@ -25,6 +25,16 @@ public class TestaCondicional2 {
 
 		}
 		
+		
+		switch (idade) {
+		case 16:
+			System.out.println("Sua idade é 16");
+			break;
+
+		default:
+			System.out.println("sua idade não é 16");
+			break;
+		}
 	}
 
 }
