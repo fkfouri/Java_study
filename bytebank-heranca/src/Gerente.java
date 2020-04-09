@@ -1,7 +1,12 @@
 // Gerente eh um funcionario, gerente herda da class Funcionario, assina o contrato Autenticavel, eh um Autenticavel
 public class Gerente extends Funcionario implements Autenticavel {
 
-	private int senha;
+	private AutenticacaoUtil util;
+	
+	public Gerente() {
+		this.util = new AutenticacaoUtil();
+	}
+	
 	
 	public double getBonificacao() { //Este metodo foi reescrito, mesma assinatura da classe mae
 		//return this.salario;   //this se refere a uma variavel definida nesta classe
@@ -17,15 +22,12 @@ public class Gerente extends Funcionario implements Autenticavel {
 
 	@Override
 	public boolean autentica(int senha) {
-		if (this.senha == senha) {
-			return true;
-		}
-		return false;
+		return this.autentica(senha);
 	}
 
 	@Override
 	public void setSenha(int senha) {
-		this.senha = senha;
+		this.util.setSenha(senha);
 
 	}
 
