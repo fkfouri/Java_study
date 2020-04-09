@@ -10,7 +10,7 @@ public class ContaCorrente extends Conta implements Tributavel {
 	//tem uma taxa para saque de Conta Corrente
 	
 	@Override  //Isso eh uma anotacao do codigo java; serve para o compilador saber a sua intencao com o metodo
-	public void saca(double valor) {
+	public void saca(double valor) throws SaldoInsuficienteException{
 		double valorASacar = valor + 0.2; // taxa de 20 centavos por saque.
 		super.saca(valorASacar);
 	}
