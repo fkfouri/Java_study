@@ -1,8 +1,10 @@
+package br.com.bytebank.banco.teste;
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteContas {
 
 	public static void main(String[] args) {
-		
+		//Full Qualified Name - FQN
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100);
 		

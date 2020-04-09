@@ -1,10 +1,11 @@
+package br.com.bytebank.banco.modelo;
 
 //isso eh um schema de uma conta
 // eh uma especificacao do que eh uma conta
 public abstract class Conta {
 
 	// 4 caracteristicas // 4 atributos
-	private double saldo;
+	protected double saldo;
 	private int agencia;
 	private int numero;
 	private Cliente titular;
@@ -19,9 +20,7 @@ public abstract class Conta {
 	}
 
 	// isso eh um metodo, uma maneira de fazer algo
-	public void deposita(double valor) {
-		this.saldo += valor;
-	}
+	public abstract void deposita(double valor);
 
 	public void saca(double valor) {
 		if (this.saldo < valor) {
