@@ -1,14 +1,15 @@
 
 // Classe MAE, Classe PAI, Base Class, Super Class
-public class Funcionario {
+public abstract class Funcionario {
 
 	private String nome;
 	private String cpf; //visivel somente nessa classe
 	private double salario; //visivel para as classes filhos
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+//	public double getBonificacao() {
+//		return this.salario * 0.05;
+//	}
+	public abstract double getBonificacao();
 
 	public String getNome() {
 		return nome;

@@ -1,7 +1,7 @@
 
 //isso eh um schema de uma conta
 // eh uma especificacao do que eh uma conta
-class Conta {
+public abstract class Conta {
 
 	// 4 caracteristicas // 4 atributos
 	private double saldo;

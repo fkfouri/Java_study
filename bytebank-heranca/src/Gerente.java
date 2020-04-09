@@ -19,7 +19,9 @@ public class Gerente extends Funcionario {
 		//return super.salario;	//super se refere a uma variavel definida pela classe mae. Mosta para o DEV que precisa subir a classe para encontrar a definicao
 		
 		System.out.println("Chamado o metodo de bonificacao do GERENTE");
-		return super.getBonificacao() + super.getSalario();
+		//return super.getBonificacao() + super.getSalario();  //implementado metodo abastrato
+		
+		return super.getSalario();
 	}
 
 	
