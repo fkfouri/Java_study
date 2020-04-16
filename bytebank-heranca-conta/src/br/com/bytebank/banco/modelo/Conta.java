@@ -16,6 +16,7 @@ public abstract class Conta {
 	private int numero;
 	private Cliente titular;
 	private static int total = 0; // um atributo da classe e nao mais do objeto
+	private String tipo;
 
 	/**
 	 * Construtor para inicializar o objeto Conta a partir da agencia e numero
@@ -23,11 +24,12 @@ public abstract class Conta {
 	 * @param agencia
 	 * @param numero
 	 */
-	public Conta(int agencia, int numero) {
+	public Conta(int agencia, int numero, String tipo) {
 		Conta.total++;
 		this.agencia = agencia;
 		this.numero = numero;
-		System.out.println("Estou criando uma conta");
+		this.tipo = tipo;
+		//System.out.println("Estou criando na Agencia: " + agencia + " a conta tipo "+ tipo + " e numero: " + numero );
 	}
 
 	// isso eh um metodo, uma maneira de fazer algo
@@ -91,4 +93,29 @@ public abstract class Conta {
 		return Conta.total;
 	}
 
+	
+    @Override
+	public String toString() {
+		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Tipo: " + this.tipo;
+	}
+    
+    
+    @Override
+    public boolean equals(Object ref) {
+    	/*
+    	 * Este metodo sobrescreve o metodo contains do ArrayList
+    	 * */
+
+        Conta outra = (Conta) ref;
+
+        if(this.agencia != outra.agencia) {
+            return false;
+        }
+
+        if(this.numero != outra.numero) {
+            return false;
+        }
+
+        return true;
+    }
 }

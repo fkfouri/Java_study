@@ -4,7 +4,7 @@ package br.com.bytebank.banco.modelo;
 public class ContaPoupanca extends Conta {
 	
 	public ContaPoupanca(int agencia, int numero) {
-		super(agencia, numero);
+		super(agencia, numero, "Poupanca");
 	}
 
 	@Override
@@ -13,5 +13,8 @@ public class ContaPoupanca extends Conta {
 		
 	}
 
-
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 }

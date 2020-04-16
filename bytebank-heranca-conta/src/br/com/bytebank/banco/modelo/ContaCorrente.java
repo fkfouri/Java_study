@@ -3,7 +3,7 @@ package br.com.bytebank.banco.modelo;
 public class ContaCorrente extends Conta implements Tributavel {
 	
 	public ContaCorrente(int agencia, int numero)  {
-		super(agencia, numero);
+		super(agencia, numero, "Corrente");
 	}
 	
 	
@@ -26,5 +26,10 @@ public class ContaCorrente extends Conta implements Tributavel {
 	public void deposita(double valor) {
 		super.saldo += valor;
 			}
+	
+	@Override
+	public String toString() {
+		return super.toString();
+	}
 
 }
