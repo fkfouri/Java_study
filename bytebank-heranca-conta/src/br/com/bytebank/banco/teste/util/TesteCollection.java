@@ -1,5 +1,6 @@
 package br.com.bytebank.banco.teste.util;
 
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -7,14 +8,14 @@ import java.util.Vector;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 
-public class TesteLinkedList {
+public class TesteCollection {
 
 	public static void main(String[] args) {
 
 		/*
-		 * ArrayList e LinkedList implementaram/contrataram a interface de List
+		 * Collection é uma classe mais generica que uma List
 		 */
-		List<Conta> lista = new LinkedList<Conta>();
+		Collection<Conta> lista = new Vector<Conta>(); //thread safe
 
 		Conta cc = new ContaCorrente(22, 11);
 		lista.add(cc);
@@ -25,9 +26,9 @@ public class TesteLinkedList {
 
 		System.out.println(lista.size());
 
-		Conta ref = lista.get(0);
-
-		System.out.println(ref.getNumero());
+//		Conta ref = lista.get(0);
+//
+//		System.out.println(ref.getNumero());
 
 		lista.remove(0);
 
@@ -40,8 +41,8 @@ public class TesteLinkedList {
 		lista.add(cc4);
 
 		for (int i = 0; i < lista.size(); i++) {
-			Object oRef = lista.get(i);
-			System.out.println(oRef);
+//			Object oRef = lista.get(i);
+//			System.out.println(oRef);
 		}
 
 		System.out.println("----------------------");
