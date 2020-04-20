@@ -6,10 +6,11 @@ package br.com.bytebank.banco.modelo;
  * @author fkfouri
  * 
  */
-public abstract class Conta {
+public abstract class Conta extends Object implements Comparable<Conta> {
 	//isso eh um schema de uma conta
 	// eh uma especificacao do que eh uma conta
 
+	
 	// 4 caracteristicas // 4 atributos
 	protected double saldo;
 	private int agencia;
@@ -96,7 +97,7 @@ public abstract class Conta {
 	
     @Override
 	public String toString() {
-		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Tipo: " + this.tipo;
+		return "Numero: " + this.numero + ", Agencia: " + this.agencia + ", Tipo: " + this.tipo + ", saldo: " + this.saldo;
 	}
     
     
@@ -117,5 +118,11 @@ public abstract class Conta {
         }
 
         return true;
+    }
+    
+    
+    @Override
+    public int compareTo(Conta outraConta) {
+    	 return Double.compare(this.saldo, outraConta.saldo);
     }
 }
