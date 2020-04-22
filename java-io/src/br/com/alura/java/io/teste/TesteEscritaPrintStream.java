@@ -9,7 +9,7 @@ public class TesteEscritaPrintStream {
 
 	public static void main(String[] args) throws IOException { 
 		
-		PrintStream ps = new PrintStream("lorem2.txt");
+		PrintStream ps = new PrintStream("lorem2.txt", "UTF-8");
 		//PrintStream ps2 = new PrintStream(new File("lorem2.txt"));
 		//PrintWriter pw = new PrintWriter("lorem2.txt");
 		

@@ -1,24 +1,24 @@
-package br.com.alura.java.io.teste;
+package br.com.alura.java.io.Unicode;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class TesteLeituraScanner {
+public class TesteLeituraEncoding {
 
 	public static void main(String[] args) throws Exception {
 
 		// Scanner sc = new Scanner("arquivo.txt"); // Se usar desta forma, o Scanner
 		// vai ler o string "arquivo.txt".
 
-		Scanner scanner = new Scanner(new File("contas.csv"), "UTF-8");
+		Scanner scanner = new Scanner(new File("contas.csv"));
 
 		while (scanner.hasNextLine()) {
 
 			String linha = scanner.nextLine();
 
-			//System.out.println(linha);
+			System.out.println(linha);
 
 //			String[] valores = linha.split(",");
 //			System.out.println(Arrays.toString(valores));

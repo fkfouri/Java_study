@@ -1,12 +1,14 @@
 package br.com.bytebank.banco.modelo;
 
+import java.io.Serializable;
+
 /**
  * Classe que representa a moldura (Schema) de uma conta.
  * 
  * @author fkfouri
  * 
  */
-public abstract class Conta extends Object implements Comparable<Conta> {
+public abstract class Conta extends Object implements Comparable<Conta>, Serializable {
 	//isso eh um schema de uma conta
 	// eh uma especificacao do que eh uma conta
 
