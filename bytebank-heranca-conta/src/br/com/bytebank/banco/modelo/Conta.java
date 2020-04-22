@@ -17,9 +17,10 @@ public abstract class Conta extends Object implements Comparable<Conta>, Seriali
 	protected double saldo;
 	private int agencia;
 	private int numero;
-	private Cliente titular;
+	private Cliente titular;  //transient eh uma marcacao para que o atributo /metodo nao sejam serializados
 	private static int total = 0; // um atributo da classe e nao mais do objeto
 	private String tipo;
+	
 
 	/**
 	 * Construtor para inicializar o objeto Conta a partir da agencia e numero
