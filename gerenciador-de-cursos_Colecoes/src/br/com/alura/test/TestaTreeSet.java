@@ -1,9 +1,12 @@
 package br.com.alura.test;
 
+import java.util.Collection;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
+import br.com.alura.Aluno;
 import br.com.alura.Funcionario;
 import br.com.alura.OrdenaPorIdade;
 
@@ -25,6 +28,9 @@ public class TestaTreeSet {
         while (iterador.hasNext()) {
             System.out.println(iterador.next().getNome());
         } 
+        
+        Collection<Aluno> alunos = new HashSet<>();
     }
 
 }
+	
