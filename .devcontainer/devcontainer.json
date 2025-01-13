@@ -13,7 +13,8 @@
 		"vscode": {
 			"extensions": [
 				"vscjava.vscode-java-debug",
-				"Codeium.codeium"
+				"Codeium.codeium",
+				"walkme.Java-extension-pack"
 			]
 		}
 	},
