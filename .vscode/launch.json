@@ -1,0 +1,609 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Programa",
+            "request": "launch",
+            "mainClass": "Programa",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "TestaBanco",
+            "request": "launch",
+            "mainClass": "TestaBanco",
+            "projectName": "bytebank-composto"
+        },
+        {
+            "type": "java",
+            "name": "TesteSacaNegativo",
+            "request": "launch",
+            "mainClass": "TesteSacaNegativo",
+            "projectName": "bytebank-composto"
+        },
+        {
+            "type": "java",
+            "name": "TestaGetESet",
+            "request": "launch",
+            "mainClass": "TestaGetESet",
+            "projectName": "bytebank-encapsulado"
+        },
+        {
+            "type": "java",
+            "name": "TestaValores",
+            "request": "launch",
+            "mainClass": "TestaValores",
+            "projectName": "bytebank-encapsulado"
+        },
+        {
+            "type": "java",
+            "name": "TestString",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TestString",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TestaTributaveis",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TestaTributaveis",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayDePrimitivos",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteArrayDePrimitivos",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayReferencias",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteArrayReferencias",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayString",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteArrayString",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteContas",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteContas",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteSaca",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.TesteSaca",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteDeserializacao",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.io.TesteDeserializacao",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteSerializacao",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.io.TesteSerializacao",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayList",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteArrayList",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayListEquals",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteArrayListEquals",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteArrayListGeneric",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteArrayListGeneric",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteCollection",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteCollection",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteLinkedList",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteLinkedList",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteVector",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteVector",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteWrapperInteger",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteWrapperInteger",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteWrapperOutros",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.TesteWrapperOutros",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TestSortArray",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TestSortArray",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteClasseAnonima",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteClasseAnonima",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteFuncaoLambda",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteFuncaoLambda",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteIterator",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteIterator",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteSortCollections",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteSortCollections",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteSortComparacaoNumerica",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteSortComparacaoNumerica",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TesteSortComparacaoString",
+            "request": "launch",
+            "mainClass": "br.com.bytebank.banco.teste.util.sort.TesteSortComparacaoString",
+            "projectName": "bytebank-heranca-conta"
+        },
+        {
+            "type": "java",
+            "name": "TestaSistemaInterno",
+            "request": "launch",
+            "mainClass": "TestaSistemaInterno",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "TesteClasseFuncionarioSemHeranca",
+            "request": "launch",
+            "mainClass": "TesteClasseFuncionarioSemHeranca",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "TesteFuncionario",
+            "request": "launch",
+            "mainClass": "TesteFuncionario",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "TesteGerente",
+            "request": "launch",
+            "mainClass": "TesteGerente",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "TesteReferencias",
+            "request": "launch",
+            "mainClass": "TesteReferencias",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "TesteReferencias2",
+            "request": "launch",
+            "mainClass": "TesteReferencias2",
+            "projectName": "bytebank-heranca"
+        },
+        {
+            "type": "java",
+            "name": "CriaConta",
+            "request": "launch",
+            "mainClass": "CriaConta",
+            "projectName": "bytebank"
+        },
+        {
+            "type": "java",
+            "name": "TestaMetodo",
+            "request": "launch",
+            "mainClass": "TestaMetodo",
+            "projectName": "bytebank"
+        },
+        {
+            "type": "java",
+            "name": "TesteReferencias(1)",
+            "request": "launch",
+            "mainClass": "TesteReferencias",
+            "projectName": "bytebank"
+        },
+        {
+            "type": "java",
+            "name": "TestaAlunos",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaAlunos",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaBuscaAlunosNoCurso",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaBuscaAlunosNoCurso",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaCurso",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaCurso",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaCurso2",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaCurso2",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaCursoComAluno",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaCursoComAluno",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaListaDeAula",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaListaDeAula",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestaTreeSet",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestaTreeSet",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestandoListas",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestandoListas",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TesteHashMap",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TesteHashMap",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "TestePerformanceList_VS_Set",
+            "request": "launch",
+            "mainClass": "br.com.alura.test.TestePerformanceList_VS_Set",
+            "projectName": "gerenciador-de-cursos_Colecoes"
+        },
+        {
+            "type": "java",
+            "name": "ClienteTesteDeserialize",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Serializacao.ClienteTesteDeserialize",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "ClienteTesteSerialize",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Serializacao.ClienteTesteSerialize",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteDeserialize",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Serializacao.TesteDeserialize",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteSerialize",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Serializacao.TesteSerialize",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteLeituraEncoding",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Unicode.TesteLeituraEncoding",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteLeituraStream",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Unicode.TesteLeituraStream",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteUnicodeEncoding",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.Unicode.TesteUnicodeEncoding",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteCopiarArquivo",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteCopiarArquivo",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteEscrita",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteEscrita",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteEscritaFileWriter",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteEscritaFileWriter",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteEscritaFileWriter2",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteEscritaFileWriter2",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteEscritaPrintStream",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteEscritaPrintStream",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteLeitura",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteLeitura",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteLeituraScanner",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteLeituraScanner",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteRWProperties",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteRWProperties",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteSocket",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteSocket",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "TesteTecladoConsole",
+            "request": "launch",
+            "mainClass": "br.com.alura.java.io.teste.TesteTecladoConsole",
+            "projectName": "java-io"
+        },
+        {
+            "type": "java",
+            "name": "Fluxo",
+            "request": "launch",
+            "mainClass": "Fluxo",
+            "projectName": "java-pilha"
+        },
+        {
+            "type": "java",
+            "name": "FluxoComError",
+            "request": "launch",
+            "mainClass": "FluxoComError",
+            "projectName": "java-pilha"
+        },
+        {
+            "type": "java",
+            "name": "FluxoComTratamento",
+            "request": "launch",
+            "mainClass": "FluxoComTratamento",
+            "projectName": "java-pilha"
+        },
+        {
+            "type": "java",
+            "name": "TestConexao",
+            "request": "launch",
+            "mainClass": "TestConexao",
+            "projectName": "java-pilha"
+        },
+        {
+            "type": "java",
+            "name": "TestaContaComExcecaoChecekd",
+            "request": "launch",
+            "mainClass": "TestaContaComExcecaoChecekd",
+            "projectName": "java-pilha"
+        },
+        {
+            "type": "java",
+            "name": "Programa",
+            "request": "launch",
+            "mainClass": "Programa",
+            "projectName": "sintaxe-basica"
+        },
+        {
+            "type": "java",
+            "name": "Fatorial",
+            "request": "launch",
+            "mainClass": "Fatorial",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaCaracterses",
+            "request": "launch",
+            "mainClass": "TestaCaracterses",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaCondicional",
+            "request": "launch",
+            "mainClass": "TestaCondicional",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaCondicional2",
+            "request": "launch",
+            "mainClass": "TestaCondicional2",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaConversao",
+            "request": "launch",
+            "mainClass": "TestaConversao",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaFor",
+            "request": "launch",
+            "mainClass": "TestaFor",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaLacos",
+            "request": "launch",
+            "mainClass": "TestaLacos",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaLacos2",
+            "request": "launch",
+            "mainClass": "TestaLacos2",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaPontoFlutuante",
+            "request": "launch",
+            "mainClass": "TestaPontoFlutuante",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaSomatoria",
+            "request": "launch",
+            "mainClass": "TestaSomatoria",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaValores(1)",
+            "request": "launch",
+            "mainClass": "TestaValores",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaVariavies",
+            "request": "launch",
+            "mainClass": "TestaVariavies",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        },
+        {
+            "type": "java",
+            "name": "TestaWhile",
+            "request": "launch",
+            "mainClass": "TestaWhile",
+            "projectName": "sintaxe-variaveis-e-fluxo"
+        }
+    ]
+}
