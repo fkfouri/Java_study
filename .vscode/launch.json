@@ -6,6 +6,33 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CacluladoraIMC",
+            "request": "launch",
+            "mainClass": "CacluladoraIMC"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraIdade",
+            "request": "launch",
+            "mainClass": "CalculadoraIdade",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "ExemploVariaveis",
+            "request": "launch",
+            "mainClass": "ExemploVariaveis",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Variaveis",
+            "request": "launch",
+            "mainClass": "Variaveis",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
